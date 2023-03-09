@@ -15,16 +15,19 @@ import java.util.ArrayList;
  */
 public class Animal {
 
+    private String type;
+    private boolean stayWhenHealthy;
+
     public Animal(String ty, ArrayList<String> inj, boolean stay){
 
     }
 
     public String getType() {
-        return "";
+        return type;
     }
 
     public boolean shouldKeepWhenHealthy() {
-        return false;
+        return stayWhenHealthy;
     }
 
     public ArrayList<String> getInjuries() {

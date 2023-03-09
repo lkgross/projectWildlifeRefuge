@@ -1,5 +1,7 @@
 package bsu.comp152;
 
+import java.util.Scanner;
+
 /**
  * RefugeRunner -
  * A class for Project 3, COMP 152
@@ -12,11 +14,16 @@ package bsu.comp152;
  */
 public class RefugeRunner {
 
-    public RefugeRunner() {
+    private Scanner keyboard;
+    private WildlifeRefuge refuge;
 
+    public RefugeRunner() {
+        // Initialize instance variable keyboard with a new Scanner object, passing in System.in as an argument.
+        keyboard = new Scanner(System.in);
+        refuge = null;
     }
 
     public void runRefuge(WildlifeRefuge wlr){
-
+        refuge = wlr;
     }
 }
