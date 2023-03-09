@@ -26,7 +26,7 @@ public class WildlifeRefuge {
         return 0;
     }
 
-    ArrayList<Rehabilitator> getRehabilitators() {
+    public ArrayList<Rehabilitator> getRehabilitators() {
         return null;
     }
 
